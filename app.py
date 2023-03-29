@@ -7,24 +7,25 @@ import matplotlib.pyplot as plt
 
 # col1, col2 = st.columns([1, 3])
 
-st.title('Phishing Website Detection using Machine Learning')
+st.title('Phishing Website Detection using Machine Learning'
+         'Group Members : Mohd Saifulla  160519733016'
+         '                Syed Mahmood   160519733053'
+         '             Mohd Subhan Khan  160519733060'
+         )
 
 
 
 with st.expander("PROJECT DETAILS"):
     st.subheader('Approach')
-    st.write('I used _supervised learning_ to classify phishing and legitimate websites. '
-             'I benefit from content-based approach and focus on html of the websites. '
+    st.write('We used _supervised learning_ to classify phishing and legitimate websites.'
              'Also, I used scikit-learn for the ML models.'
              )
-    st.write('For this educational project, '
-             'I created my own data set and defined features, some from the literature and some based on manual analysis. '
-             'I used requests library to collect data, BeautifulSoup module to parse and extract features. ')
+    st.write('We created our own data set and defined features, some from the literature and some based on manual analysis. '
+             'We used requests library to collect data, BeautifulSoup module to parse and extract features. ')
 
     st.subheader('Data set')
-    st.write('I used _"phishtank.org"_ & _"tranco-list.eu"_ as data sources.')
+    st.write('We used _"phishtank.org"_ & _"tranco-list.eu"_ as data sources.')
     st.write('Totally 26584 websites ==> **_16060_ legitimate** websites | **_10524_ phishing** websites')
-    st.write('Data set was created in October 2022.')
 
     # ----- FOR THE PIE CHART ----- #
     labels = 'phishing', 'legitimate'

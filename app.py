@@ -8,14 +8,15 @@ import matplotlib.pyplot as plt
 # col1, col2 = st.columns([1, 3])
 
 st.title('Phishing Website Detection using Machine Learning'
-         'Group Members : Mohd Saifulla  160519733016'
-         '                Syed Mahmood   160519733053'
-         '             Mohd Subhan Khan  160519733060'
          )
 
 
 
 with st.expander("PROJECT DETAILS"):
+    st.subheader('Group Members ')
+    st.write('Mohd Saifulla  160519733016.'
+         'Syed Mahmood   160519733053.'
+         'Mohd Subhan Khan  160519733060')
     st.subheader('Approach')
     st.write('We used _supervised learning_ to classify phishing and legitimate websites.'
              'Also, I used scikit-learn for the ML models.'
